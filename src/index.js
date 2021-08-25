@@ -82,9 +82,12 @@ const element = (
       </div>
       <h1>Say hello to</h1>
       <h1>ReactJS</h1>
-      <p className="pbackGroundTopTop">You will learn how to use</p>
-      <p className="pbackGroundTopMiddle">the most popular frontend library,</p>
-      <p className="pbackGroundTopBottom">and become an Ninja developer.</p>
+      <p className="pbackGroundTop">
+        You will learn how to use <br />
+        the most popular frontend library, <br />
+        and become an Ninja developer.
+      </p>
+
       <div className="d-flex">
         <p className="pAwesome">Awesome!</p>
       </div>
@@ -93,30 +96,41 @@ const element = (
       <div className="d-flex flex-column section">
         <img src="/images/icon1.png" alt="icon1"></img>
         <h5>Declarative</h5>
-        <p className="pbackGroundBottom">React make it</p>
-        <p className="pbackGroundBottom">painless to create</p>
-        <p className="pbackGroundBottom">interactive UIs.</p>
+        <p>
+          React make it <br />
+          painless to create <br />
+          interactive UIs.
+        </p>
       </div>
       <div className="d-flex flex-column section">
         <img src="/images/icon2.png" alt="icon2"></img>
         <h5>Components</h5>
-        <p className="pbackGroundBottom">Build encapsulated</p>
-        <p className="pbackGroundBottom">components that</p>
-        <p className="pbackGroundBottom">manage their state.</p>
+        <p className="pbackGroundBottom">
+          Build encapsulated
+          <br />
+          components that <br />
+          manage their state.
+        </p>
       </div>
       <div className="d-flex flex-column section">
         <img src="/images/icon3.png" alt="icon3"></img>
         <h5>Single-Way</h5>
-        <p className="pbackGroundBottom">A set of inmutable</p>
-        <p className="pbackGroundBottom">values are passed to</p>
-        <p className="pbackGroundBottom">the component's.</p>
+        <p className="pbackGroundBottom">
+          A set of inmutable
+          <br />
+          values are passed to <br />
+          the component's.
+        </p>
       </div>
       <div className="d-flex flex-column section">
         <img src="/images/icon4.png" alt="icon4"></img>
         <h5 style={{ color: "#1f2535", margingBottom: "100px" }}>JSX</h5>
-        <p className="pbackGroundBottom">Statically-typed,</p>
-        <p className="pbackGroundBottom">designed to run on</p>
-        <p className="pbackGroundBottom">modern browsers.</p>
+        <p className="pbackGroundBottom">
+          Statically-typed,
+          <br />
+          designed to run on <br />
+          modern browsers.
+        </p>
       </div>
     </div>
   </div>
