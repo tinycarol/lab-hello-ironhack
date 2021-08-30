@@ -11,3 +11,113 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+#cover {
+  background-color: #1f2535;
+  color: white;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  width: 100vw;
+  padding-bottom: 50px;
+
+
+
+}
+
+
+
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ margin: 20px 30px;
+
+
+}
+
+
+
+.logo {
+ margin: 30px 50px;
+
+
+}
+
+
+
+
+.menu {
+ margin: 30px 50px;
+
+
+}
+
+
+
+
+.text {
+  margin-left: 40px;
+}
+
+
+
+.text > h1 {
+ margin: 60px 0 5px 40px;
+ font-size: 4rem;
+ width: 35%;
+
+
+
+}
+
+
+
+
+
+
+
+.text > p {
+ margin: 0 0 30px 40px;
+ font-size: 1.2rem;
+ width: 35%;
+
+
+
+}
+
+
+
+.button {
+ padding: 20px;
+ margin: 15px 30px;
+ font-size: 1.4rem;
+ border-radius: 10px;
+ border-style: solid;
+ border-color: white;
+
+
+}
+
+
+
+.containers {
+ display: flex;
+ align-content: flex-end;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 83px 42px;
+
+}
+
+
+
+.containers > div {
+ justify-content: left;
+ margin: 0 22px;
+ width: 204px;
+ justify-content: left;
+
+
+}
