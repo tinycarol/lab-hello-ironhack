@@ -1,0 +1,48 @@
+
+.grid{
+    background-color: #1f2535;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-items: center;
+    color: white;
+    padding-bottom: 40px;
+    
+}
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 10px;
+  
+}
+.body-grid{
+    margin-left: 50px;
+    margin-bottom: 90px;
+    width: 35vw;
+}
+#main-title{
+    font-size: 50px;
+}
+.btn{
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+}
+.card-container{
+    height: 150px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.card {
+    width: 200px;
+    margin: 0 20px;
+    justify-content: left
+}
