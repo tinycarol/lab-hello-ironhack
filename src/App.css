@@ -1,0 +1,36 @@
+nav {
+    background-color: rgb(29, 29, 41);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.hamburger {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.hero {
+    height: 350px;
+    padding: 50px;
+    background-color: rgb(29, 29, 41);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero > div {
+    width: 80%;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 50px;
+}
+
