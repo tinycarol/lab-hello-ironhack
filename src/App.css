@@ -16,21 +16,45 @@ nav {
 }
 
 .hero {
-    height: 350px;
-    padding: 50px;
+    height: 400px;
+    padding: 20px 50px;
     background-color: rgb(29, 29, 41);
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
 
 .hero > div {
-    width: 80%;
+    max-width: 500px;
 }
 
 h1 {
     margin: 0px;
     font-size: 50px;
+}
+
+button {
+    width: auto;
+    height: 50px;
+    padding: 0px 20px;
+    font-size: 17px;
+    margin-top: 30px
+}
+
+.features {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features > div {
+    width: 20vw;
+}
+
+.features-icons {
+    width: 100px;
 }
 
