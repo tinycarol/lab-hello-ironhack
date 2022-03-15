@@ -26,9 +26,20 @@ h1 {
   font-size: 100px;
   color: #fff;
 }
+
 p {
   color: #fff;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.description {
+  color: rgb(109, 109, 109);
+}
+
 
 /* ------------------ */
 /* NAV */
@@ -53,8 +64,7 @@ p {
   justify-content: flex-start;
   align-items: center;
   width: 100vw;
-  height: 100vh;
-  padding: 0 10%;
+  padding: 200px 10%;
   background-color: #1f2535;
 }
 
@@ -74,4 +84,25 @@ button {
   line-height: 150%;
 }
 
+/* ------------------ */
+/* Cards Block */
+/* ------------------ */
 
+.cardsBlock {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 15%;
+}
+
+.card {
+  padding: 40px;
+  max-width: 300px;
+}
+
+.title {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+}
