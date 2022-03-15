@@ -4,7 +4,7 @@ function App() {
 return (
     <div className="App">
         <header className='App-header'>
-            <nav>
+            <nav className='App-nav'>
                 <div>
                     <img src="/images/ironhack-logo.svg" alt="Ironhack Logo" />
                 </div>

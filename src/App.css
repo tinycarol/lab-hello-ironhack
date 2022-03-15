@@ -41,3 +41,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+.App-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
