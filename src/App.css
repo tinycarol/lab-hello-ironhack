@@ -1,0 +1,79 @@
+
+.App-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #22223a; 
+}
+
+  .img-logo {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+
+  .img-menu {
+    margin-right: 40px;
+  }
+
+.App-text {
+  color: white;
+
+}
+
+.App-landing {
+  background-color: #22223a;
+  margin: 20px;
+  height: -50px;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  margin-left: 60px;
+  margin-right: 300px;
+  margin-top: 70px;
+}
+
+p.text-landing {
+  color: white;
+  margin-left: 60px;
+  margin-right: 350px;
+}
+
+button {
+  background: white;
+  color:  #07052e;
+  border: none;
+  border-radius: 3px;
+  padding: 18px 32px;
+  font-weight: bold;
+  margin: 20px 0px 60px 50px; 
+}
+
+.container {
+  margin-top: 120px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.item {
+  justify-content: left;
+  margin-left: 2px;
+}
+
+div > h3 {
+  margin-bottom: -10px;
+}
+
+div > p {
+  text-align:left;
+  color:#616170;
+}
+
+.img-section {
+  width: 100px;
+  margin-bottom: -15px;
+
+  
+}
