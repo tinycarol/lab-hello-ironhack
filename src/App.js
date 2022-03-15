@@ -2,42 +2,35 @@
 import "./App.css";
 
 const components = [
-    {
-        title: 'Declarative',
-        paragraph:'React makes it painless to create interactive UIs',
-        img: '/images/icon1.png',
+  {
+    title: "Declarative",
+    paragraph: "React makes it painless to create interactive UIs",
+    img: "/images/icon1.png",
+  },
+  {
+    title: "Components",
+    paragraph: "Build encapsulated components that manage their state",
+    img: "/images/icon2.png",
+  },
+  {
+    title: "Single-Way",
+    paragraph: "A set of inmutable values are passed to the components",
+    img: "/images/icon3.png",
+  },
+  {
+    title: "JSX",
+    paragraph: "Statically-typed designed to run on modern browsers",
+    img: "/images/icon4.png",
+  },
+];
 
-    },
-    {
-        title: 'Components',
-        paragraph:'Build encapsulated components that manage their state',
-        img: '/images/icon2.png'
-    },
-    {
-        title: 'Single-Way',
-        paragraph:'A set of inmutable values are passed to the components',
-        img: '/images/icon3.png'
-    },
-    {
-        title:  'JSX',
-        paragraph:'Statically-typed designed to run on modern browsers',
-        img: '/images/icon4.png'
-    }
-]
-    
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src="/images/ironhack-logo.svg" className="App-logo" alt="logo" />
         <div>
-          <li>
-            <img
-              src="/images/menu-top.svg"
-              className="menu-top"
-              alt="menu top"
-            />
-          </li>
+          <img src="/images/menu-top.svg" className="menu-top" alt="menu top" />
         </div>
       </header>
       <div className="title-text">
@@ -50,23 +43,26 @@ function App() {
           and become a super Ninja developer.
         </p>
         <button className="awesome-button">Awesome!</button>
+        <img
+          className="react-logo"
+          src="images/react-logo.svg"
+          alt="react-logo"
+        />
       </div>
 
-   {
-       components.map((components, index) => {
-           return (
-               <div className="elements">
-               <div key={index}>
-               <h5>{components.title}</h5>
-               <p>{components.paragraph}</p>
-              <img className="img-icon" src={components.img} alt="img" />
-
-               </div>
-  
-               </div>
-           )
-       })
-   }
+      <div className="components-group">
+        {components.map((components, index) => {
+          return (
+            <div className="elements">
+              <div key={index}>
+                <img className="img-icon" src={components.img} alt="img" />
+                <h4>{components.title}</h4>
+                <p>{components.paragraph}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
