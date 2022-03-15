@@ -1,16 +1,14 @@
-import './app.css';
-import { navBar } from '../Nav/Nav';
-import { mainBlock } from '../Main/Main';
+import "./app.css";
+
 
 const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <navBar />
-      </header>
-      <mainBlock />
-    </div>
-  );
-}
+	return (
+		<div className="App">
+			<header className="App-header">
+			</header>
+		</div>
+	);
+};
+
 
 export { App };
