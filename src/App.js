@@ -5,22 +5,12 @@ return (
     <div className="App">
         <header className='App-header'>
             <nav className='App-nav'>
-                <div>
-                    <img src="/images/ironhack-logo.svg" alt="Ironhack Logo" />
-                </div>
-                <div>
-                    <img src="/images/menu-top.svg" alt="Ironhack Logo" />
-                </div>
+                <img className='App-logo' src="/images/ironhack-logo.svg" alt="Ironhack Logo" />
+                <img className='App-hamburguer' src="/images/menu-top.svg" alt="Ironhack Logo" />
             </nav>
-            <div>
-                <p>Say Hello to ReactJS</p>
-            </div>
-            <div>
-                <p>You will learn how to use the most popular frontend library and become a super Ninja developer</p>
-            </div>
-            <div>
-                <button>Awesome</button>
-            </div>
+            <p className='App-title'>Say Hello to ReactJS</p>
+            <p className='App-description'>You will learn how to use the most popular frontend library and become a super Ninja developer</p>
+            <a href='#' className='App-button'>Awesome</a>
         </header>
         <div className='App-cards'>
             <div>
