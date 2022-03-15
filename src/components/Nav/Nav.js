@@ -1,5 +1,6 @@
 import ironhackLogo from "./images/ironhack-logo.svg";
 import menuLogo from "./images/menu-top.svg";
+import './nav.css'
 
 
 const Navbar = () => {

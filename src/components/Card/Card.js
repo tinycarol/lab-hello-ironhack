@@ -1,3 +1,6 @@
+import './card.css'
+
+
 const cardComponent = (key, logo, title, text) => {
 	return (
 		<div key={key} className="card">
