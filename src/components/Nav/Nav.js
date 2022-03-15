@@ -5,9 +5,9 @@ import './nav.css'
 
 const Navbar = () => {
 	return (
-		<nav>
-			<img src={ironhackLogo} className="App-logo" alt="logo" />
-			<img src={menuLogo} className="App-logo" alt="logo" />
+		<nav className="nav">
+			<div><img src={ironhackLogo} className="App-logo" alt="logo" /></div>
+			<div><img src={menuLogo} className="App-logo" alt="logo" /></div>
 		</nav>
 	);
 };

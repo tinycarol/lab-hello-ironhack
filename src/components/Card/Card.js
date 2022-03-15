@@ -6,7 +6,7 @@ const cardComponent = (key, logo, title, text) => {
 		<div key={key} className="card">
 			<img src={logo} className="card-img-top" alt="..." />
 			<div className="card-body">
-				<h5 className=""> {title} </h5>
+				<h2 className=""> {title} </h2>
 				<p className="card-text">
 					{text}
 				</p>
