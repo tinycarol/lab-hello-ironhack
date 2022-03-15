@@ -1,0 +1,35 @@
+body {
+    background-color: #1f2535;
+}
+
+.App-header {
+    display: flex;
+    margin: 20px 75px;
+}
+
+.App-title {
+font-size: 80px;
+color: white;
+margin: 20px 75px
+}
+
+.header-text {
+    color: white;
+    margin: 20px 75px;
+}
+
+.awesome-button {
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px 75px;
+}
+
+.elements {
+    color: white;
+    font-size: 12px;
+}
+
+.img-icon {
+height: 50px;
+}
+
