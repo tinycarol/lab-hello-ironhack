@@ -1,0 +1,60 @@
+nav {
+    background-color: rgb(29, 29, 41);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.hamburger {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.hero {
+    height: 400px;
+    padding: 20px 50px;
+    background-color: rgb(29, 29, 41);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero > div {
+    max-width: 500px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 50px;
+}
+
+button {
+    width: auto;
+    height: 50px;
+    padding: 0px 20px;
+    font-size: 17px;
+    margin-top: 30px
+}
+
+.features {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features > div {
+    width: 20vw;
+}
+
+.features-icons {
+    width: 100px;
+}
+
