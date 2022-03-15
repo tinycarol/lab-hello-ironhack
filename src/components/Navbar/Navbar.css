@@ -1,0 +1,10 @@
+.custom-navbar {
+    width: 55vw;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 20%;
+}

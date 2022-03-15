@@ -1,10 +1,13 @@
+import './Hero.css';
+
 function Hero() {
     return (
-      <navbar className="custom-navbar">
-        <img src="../images/ironhack-logo.svg" alt="" />
-        <img src="../images/menu-top.svg" alt="" />
-      </navbar>
+      <div className="landing-hero">
+        <h1>Say hello to ReactJS</h1>
+        <p>You will learn how to use <br></br>the most popular frontend library,<br></br> and become a super Ninja developer.</p>
+        <button>Awesome!</button>
+      </div>
     );
-  }
+}
   
-  export default Hero;
+export default Hero;
