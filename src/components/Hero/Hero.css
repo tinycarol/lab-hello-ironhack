@@ -1,0 +1,32 @@
+.landing-hero {
+    width: 30%;
+    color: white;
+    margin-left: 22%;
+}
+
+h1 {
+    width: 100%;
+    font-size: 70px;
+    line-height: 0.95;
+    margin-top: 100px;
+}
+
+p {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #fff;
+	color: #1e2333;
+	border: none;
+    border-radius: 2.5px;
+	padding: 15px 20px;
+	font: inherit;
+    font-weight: bolder;
+    font-size: 18px;
+	cursor: pointer;
+	outline: inherit;
+}
