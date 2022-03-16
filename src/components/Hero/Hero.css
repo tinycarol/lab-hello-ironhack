@@ -1,13 +1,14 @@
 .landing-hero {
     width: 30%;
     color: white;
-    margin-left: 20%;
+    margin-left: 22%;
 }
 
 h1 {
     width: 100%;
     font-size: 70px;
     line-height: 0.95;
+    margin-top: 100px;
 }
 
 p {

@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar/Navbar.js';
 import Hero from './components/Hero/Hero.js';
+import Grid from './components/Grid/Grid.js';
 import './App.css';
 
 function App() {
@@ -14,9 +15,7 @@ function App() {
           <img className="react-logo-header" id="react-logo-3" src="./images/react-logo.svg" alt="" />
         </header>
         <body>
-            <div>
-                
-            </div>
+          <Grid />
         </body>
       </div>
     </>
