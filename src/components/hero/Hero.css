@@ -1,0 +1,33 @@
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1F2535;
+    color: white;
+}
+
+#intro-text {
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+#intro-text h1{
+    margin: 0;
+    font-size: 5rem;
+    line-height : 4.5rem;
+    width: 30rem;
+}
+
+#intro-text p{
+    margin-top: 1rem;
+    width: 24rem;
+}
+
+#intro-text button{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-radius: 0.3rem;
+    border: none;
+}
