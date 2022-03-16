@@ -23,6 +23,17 @@ const developmentTools = [
     }
 ];
 
+function Card(props) {
+    const {img, aps, exp} = props;
+    return (
+        <div>
+            {img}
+            <h4>{aps}</h4>
+            <p>{exp}</p>
+        </div>
+    )
+}
+
 function App() {
     return (
         <div className = "App">
@@ -32,13 +43,25 @@ function App() {
                     <img src="images/menu-top.svg" className='' alt=""/>
                 </nav>
                 <div className='content'>
-                    <h1>Say hello to ReactJS</h1>
-                    <h4>You will learn to use the most popular fronted library, and become a super Ninja Developer</h4>
-                    <div className="awesome"></div>
+                    <h1>Say hello to <br></br>ReactJS</h1>
+                    <p>You will learn to use <br></br> the most popular fronted library,<br></br> and become a super Ninja Developer</p>
+                    <div className="awesome"><b>Awesome!</b></div>
                 </div>
             </div>
-
+            <div className = "section2"> 
+                <div className="card">
+                    {developmentTools.map((el, index) => {
+                        return (<Card className = "card"
+                            img={el.img} 
+                            aps={el.aplications} 
+                            exp={el.explanation}
+                            key={index}> 
+                            </Card>)
+                    })}
+                </div>
+            </div>
         </div>
+        
     );
 }
 
