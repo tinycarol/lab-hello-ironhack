@@ -1,0 +1,93 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.section1{
+    background: teal;
+    width: 95%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    width: 85%;
+    height: 80%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    width: 50%;
+    padding: 0 0 0 100px;
+}
+
+.content > h1 {
+    margin: 50px 0px 10px 0;
+    font-size: 80px;
+}
+
+.content > p {
+    width:100%;
+    font-size: 24px;
+}
+
+.awesome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    color: blue;
+    font-size: 20px;
+    width: 24%;
+    height: 80px;
+    margin: 80px 0 100px;
+}
+
+.section2{
+    height: 600px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 95%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: -100px 0 0 -150px;
+}
+
+.card > div {
+    width: 160px;
+    margin: 0 0 0 0px;
+}
+
+.card > div > img {
+    width: 125px;
+}
+
+.card > div > h4 {
+    margin: 10px 0 0 15px;
+    font-size: 25px;
+    width: 160px;
+}
+
+.card > div > p {
+    margin: 100px 0 0 15px;
+    font-size: 20px;
+    width: 100px;
+}
