@@ -1,0 +1,22 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1f2535;
+    text-align: center;
+    padding: 0px 35px;
+}
+
+.Card img {
+    width: 200px;
+}
+
+.Card h2 {
+    width: 200px;
+    font-size: 30px;
+}
+
+.Card p {    
+    font-size: 20px;    
+}
