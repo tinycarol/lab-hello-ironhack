@@ -1,0 +1,41 @@
+.hero-container {
+    height: 92vh;
+    background-color: #1f2535;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 85%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    padding: 50px 0 0 100px;
+    color: white;
+    align-items: baseline;
+}
+
+.hero-text h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+.hero-text p{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.cards-container {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
