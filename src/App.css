@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+}
+
+.header-container {
+    background-color: #1F2535;
+    padding: 0 200px;
+    height: 800px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}

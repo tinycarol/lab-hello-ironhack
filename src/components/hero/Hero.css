@@ -1,0 +1,23 @@
+.hero {
+    color: #fff;
+    height: 600px;
+    width: 50%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: center;
+}
+
+h1 {
+    font-size: 86px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+}
