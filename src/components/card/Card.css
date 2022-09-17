@@ -1,0 +1,37 @@
+.card-container {
+    margin: 100px 0;
+    padding: 0 200px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.card-img {
+    margin: 5px;
+    height: 80px;
+    width: 80px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
