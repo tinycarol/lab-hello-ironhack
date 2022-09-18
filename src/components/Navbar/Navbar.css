@@ -1,7 +1,14 @@
 .Navbar {
-    background-color: #1f2535
+    background-color: #1f2535;
+    padding: 10px 0;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
 }
 
 .Navbar > img {
-   
+    margin: 0 30px;
 } 
