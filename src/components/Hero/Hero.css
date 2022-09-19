@@ -1,0 +1,19 @@
+.Hero-Container{
+    background-color:  rgb(8, 8, 44);
+    width: 100%;
+    height: 46rem;
+}
+.title{
+    color: white;
+    margin-left: 8%;
+    padding-top: 12rem;
+    font-size: 5rem;
+    margin-top: 0;
+}
+
+.text{
+    color: white;
+    margin-left:  8.5%;
+    margin-top: -3rem;
+    line-break: 1rem;
+}

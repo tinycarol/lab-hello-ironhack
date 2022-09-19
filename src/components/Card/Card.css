@@ -1,0 +1,10 @@
+.Row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+.Card-Text{
+    width: 8rem;
+}
