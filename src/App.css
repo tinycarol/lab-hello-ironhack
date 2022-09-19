@@ -1,0 +1,18 @@
+
+.hero-container{
+  width: 100%;
+  height: 500px;
+  background-color: #282c34;
+  color: aliceblue;
+}
+
+.hero-container h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.card-container{
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
