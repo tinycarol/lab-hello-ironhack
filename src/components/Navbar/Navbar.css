@@ -1,0 +1,19 @@
+.Navbar {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(8, 8, 44);
+    display: flex;
+    flex-direction: row;
+}
+.Iron-logo{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    width: 4rem
+}
+
+.Menu-logo{
+    margin-left: 90%;
+    width: 2rem;
+    
+}
+
