@@ -1,1 +1,15 @@
 
+.header-container {
+    background-color: #1E2433;
+    padding: 0 150px;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	padding: 100PX 150px;
+}
