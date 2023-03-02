@@ -1,0 +1,13 @@
+.Navbar {
+    background-color: #1E2433;
+}
+
+.container-nav {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    padding: 50px 100px;
+}
