@@ -1,23 +1,24 @@
 .nav {
   background-color: #202536;
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  margin: 24px 24px 0px 24px;
 }
 
 .logo {
-  margin-left: 50px;
-  margin-top: 16px;
+  margin-left: 80px;
+  margin-top: 40px;
 }
 
 .burger {
-  margin-right: 50px;
-  margin-top: 16px;
+  margin-right: 80px;
+  margin-top: 40px;
 }
 
 .hero {
   height: 400px;
-  padding: 20px 50px;
+  padding: 36px 80px;
+  margin: 0px 24px;
   background-color: #202536;
   color: white;
   display: flex;
@@ -31,7 +32,7 @@ h1 {
   font-size: 64px;
 }
 
-.hero-content p{
+p{
   font-size: 18px;
 }
 
@@ -46,3 +47,36 @@ button {
   margin-top: 30px
 }
 
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.elem-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  max-width: 16%;
+}
+
+.elem-card h2 {
+  color: #202536;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.elem-card p{
+  color: #979797;
+  margin-top: 0.5rem;
+}
+
+.elem-card img {
+  display: block;
+  position: relative;
+  left: -20px;
+  bottom: -20px;
+}
