@@ -1,0 +1,48 @@
+.nav {
+  background-color: #202536;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-top: 16px;
+}
+
+.burger {
+  margin-right: 50px;
+  margin-top: 16px;
+}
+
+.hero {
+  height: 400px;
+  padding: 20px 50px;
+  background-color: #202536;
+  color: white;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+h1 {
+  margin: 0px;
+  font-size: 64px;
+}
+
+.hero-content p{
+  font-size: 18px;
+}
+
+button {
+  color: #202536;
+  width: auto;
+  height: 64px;
+  padding: 0px 18px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 30px
+}
+
